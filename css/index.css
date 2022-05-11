@@ -51,6 +51,29 @@
 }
 /* END OF NAVBAR */
 
+/* DIVIDER */
+.divider {
+  text-align: center;
+}
+
+.divider__img {
+  width: 5rem;
+  height: 4rem;
+  margin: 2rem 0rem;
+}
+/* END OF DIVIDER */
+
+/* INTRODUCTION */
+.introduction__img {
+  width: 100%;
+  margin: 1.5rem 0rem;
+}
+
+.introduction {
+  font-family: 'Roboto', sans-serif;
+}
+/* END OF INTRODUCTION */
+
 /* END OF MOBILE*/
 
 /*
@@ -68,7 +91,7 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 992px) {
   /* HEADER */
   .header {
-    height: 46.875rem;
+    height: 40rem;
     background-image: url("../img/header-bg.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -112,11 +135,39 @@ No media query for `xs` since this is the default in Bootstrap
     margin: 0rem 0.2rem;
   }
   /* END OF NAVBAR */
+
+  /* INTRODUCTION */
+  .introduction {
+    margin-top: 6rem;
+  }
+
+  .introduction__img {
+    margin: 0%;
+  }
+
+  .introduction__img--1 {
+    width: 30rem;
+    height: 50rem;
+  }
+
+  .introduction__img--2 {
+    height: 25.938rem;
+    width: 25.625rem;
+  }
+
+  .introduction__info-1 {
+    margin-top: 6rem;
+  }
+  /* END OF INTRODUCTION */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   /* HEADER */
+  .header {
+    height: 46.875rem;
+  }
+  
   .header__title {
     width: 35.313rem;
     font-size: 5rem;
@@ -124,6 +175,13 @@ No media query for `xs` since this is the default in Bootstrap
     margin-top: 10rem;
   }
   /* END OF HEADER */
+
+  /* INTRODUCTION */
+  .introduction__img--1 {
+    width: 35rem;
+    height: 48rem;
+  }
+  /* END OF INTRODUCTION */
  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
