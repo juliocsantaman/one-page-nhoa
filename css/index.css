@@ -7,14 +7,24 @@
   margin: 0%;
   padding: 1rem;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .header__title {
   margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header__message-2 {
+  font-family: 'Roboto', sans-serif;
 }
 /* END OF HEADER */
 
 /* NAVBAR */
+.navbar {
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar__logo {
   width: 5rem;
 }
@@ -72,8 +82,11 @@ No media query for `xs` since this is the default in Bootstrap
     margin-top: 6.5rem;
   }
 
+  .header__message {
+    font-weight: 600;
+  }
+
   .header__message-2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.875rem;
   }
   /* END OF HEADER */
@@ -93,6 +106,10 @@ No media query for `xs` since this is the default in Bootstrap
   .navbar__button {
     margin-top: 0%;
     margin-left: 0.5rem;
+  }
+
+  .navbar__link-icon {
+    margin: 0rem 0.2rem;
   }
   /* END OF NAVBAR */
  }
