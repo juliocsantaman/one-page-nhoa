@@ -1,0 +1,113 @@
+/* MOBILE */
+
+/* HEADER */
+.header__message {
+  background-color: #D7B97C;
+  color: #FFFFFF;
+  margin: 0%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 1rem;
+}
+/* END OF HEADER */
+
+/* NAVBAR */
+.navbar__logo {
+  width: 5rem;
+}
+
+.navbar__link {
+  color: #FFFFFF !important;
+}
+
+.navbar__link--active {
+  color: #D7B97C !important;
+}
+
+.navbar__link:hover {
+  filter: brightness(90%);
+}
+
+.navbar__button {
+  border: none;
+  background-color: #D87C5E;
+  color: #FFFFFF;
+  border-radius: 0.188rem;
+  padding: 0.4rem;
+  margin-top: 1rem;
+}
+/* END OF NAVBAR */
+
+/* END OF MOBILE*/
+
+/*
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* HEADER */
+  .header {
+    height: 46.875rem;
+    background-image: url("../img/header-bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+  }
+
+  .header__title {
+    width: 35.313rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 6.5rem;
+  }
+
+  .header__message-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+  }
+  /* END OF HEADER */
+
+  /* NAVBAR */
+  .navbar {
+    background-color: transparent !important;
+    padding: 1rem;
+  }
+
+  .navbar__collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__button {
+    margin-top: 0%;
+    margin-left: 0.5rem;
+  }
+  /* END OF NAVBAR */
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  /* HEADER */
+  .header__title {
+    width: 35.313rem;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10rem;
+  }
+  /* END OF HEADER */
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
