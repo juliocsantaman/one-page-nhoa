@@ -1,4 +1,4 @@
-/* MOBILE */
+/* MOBILE FIRST */
 
 /* HEADER */
 .header__message {
@@ -160,11 +160,60 @@
   display: flex;
   margin-right: 2rem;
 }
-
-
 /* END OF DEPARTMENTS */
 
-/* END OF MOBILE*/
+/* AMENITIES */
+.carousel__img {
+  width: 2.729rem;
+  height: 2.031rem;
+}
+/* END OF AMENITIES */
+
+/* LOCATION */
+.location {
+  color: #717171;
+  font-family: 'Roboto', sans-serif;
+}
+
+.location__title-container {
+  width: 100%;
+}
+
+.location__title-container div {
+  width: max-content;
+  position: relative;
+}
+
+.location__icon {
+  width: 2.3rem;
+  position: absolute;
+  top: -1rem;
+  right: -2.4rem;
+}
+
+.location__p1 span {
+  color: #8D5C30;
+  font-weight: bold;
+}
+
+.location__img, .location__img-2{
+  width: 100%;
+}
+.location__img-container {
+  position: relative;
+}
+
+.location__img {
+  position: absolute;
+  z-index: 1;
+  top: 4%;
+  right: 4%;
+}
+
+.location__img-2 {
+  z-index: -1;
+}
+/* END OF LOCATION */
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -282,6 +331,29 @@ No media query for `xs` since this is the default in Bootstrap
   }
   
   /* END OF DEPARTMENTS */
+
+  /* LOCATION */
+  .location {
+    margin-top: 6rem;
+  }
+
+  .location__title {
+    font-size: 3.75rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #8D5C30;
+    margin-bottom: 2rem;
+  }
+
+  .location__icon {
+    top: -1rem;
+    right: -2rem;
+  }
+
+  .location__p1 {
+    margin-bottom: 2rem;
+  }
+  /* END OF LOCATION */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
