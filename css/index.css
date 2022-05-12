@@ -241,6 +241,66 @@
 }
 /* END OF EXTRA IMG */
 
+/* DATE */
+.date {
+  width: 100%;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.date__title {
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.date__info {
+  color: #FFFFFF;
+  margin: 1rem 0rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.date__title, .date__info {
+  text-align: center;
+}
+
+.date__form {
+  background-color: #D7B97C;
+  padding: 1rem;
+}
+
+.date__input-container-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.date__input, .date__select, .date__textarea {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.date__input, .date__select, .date__textarea, .date__g-recaptcha {
+  margin: 0.4rem 0rem;
+  padding: 0.4rem;
+}
+
+.date__textarea {
+  resize: none;
+  padding: 0.8rem;
+}
+
+.date__g-recaptcha  {
+  margin: auto;
+}
+
+.date__btn {
+  width: 90%;
+  background-color: #D87C5E;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+/* END OF DATE */
+
 /*
 X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap
@@ -416,6 +476,34 @@ No media query for `xs` since this is the default in Bootstrap
     z-index: 1;
   }
   /* END OF EXTRA IMG */
+
+  /* DATE */
+  .date__title {
+    font-size: 3.75rem;
+  }
+  .date__bg-date {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+  }
+
+  .date__form {
+    width: 75%;
+    position: absolute;
+    right: 0%;
+    margin-top: 5rem;
+    height: 36.188rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .date__input, .date__select, .date__textarea, .date__g-recaptcha {
+    margin: 0.5rem;
+    /* padding: 0.4rem; */
+  }
+  /* END OF DATE */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -445,6 +533,13 @@ No media query for `xs` since this is the default in Bootstrap
     width: 27.063rem;
     height: 24.5rem;
   }
+  /* END OF EXTRA IMG */
+
+  /* DATE */
+  .date__form {
+    width: 60%;
+  }
+  /* END OF DATE */
  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
