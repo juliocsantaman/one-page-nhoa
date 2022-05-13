@@ -1,5 +1,28 @@
 /* MOBILE FIRST */
 
+/* BUTTONS FIXED */
+.buttons-fixed {
+  position: relative;
+  z-index: 1;
+}
+
+.buttons-fixed__container {
+  position: fixed;
+  top: 10rem;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-fixed__img {
+  margin-bottom: 2rem;
+}
+
+.buttons-fixed__img:hover {
+  filter: brightness(90%);
+}
+/* END OF BUTTONS FIXED */
+
 /* HEADER */
 .header__message {
   background-color: #D7B97C;
