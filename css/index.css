@@ -289,10 +289,6 @@
   padding: 0.8rem;
 }
 
-.date__g-recaptcha  {
-  margin: auto;
-}
-
 .date__btn {
   width: 90%;
   background-color: #D87C5E;
@@ -300,6 +296,97 @@
   margin-top: 1rem;
 }
 /* END OF DATE */
+
+/* FOOTER */
+.footer {
+  background-color: #F7F4F0;
+  padding-top: 3rem;
+  /* position: relative; */
+}
+
+.footer__title {
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+}
+
+.footer__p1 {
+  color: #D87C5E;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 1.5rem 0rem;
+}
+
+.footer__btn {
+  background-color: #4B653A;
+  color: #FFFFFF;
+}
+
+.footer__p2 {
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 1.5rem 0rem;
+}
+
+.footer__logo {
+  margin-top: 2rem;
+}
+
+.footer__telephone-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0rem 1rem 0rem;
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer__icon--telephone {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.footer__p3 {
+  color: #D87C5E;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer__p4 {
+  color: #717171;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer__p4 span {
+  color: #8D5C30;
+  font-weight: bold;
+}
+
+.footer__p5 {
+  color: #717171;
+  font-size: 0.688rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer__title-container {
+  width: 100%;
+}
+
+.footer__title-container div {
+  width: max-content;
+  position: relative;
+}
+
+.footer__title-icon {
+  width: 2.3rem;
+  position: absolute;
+  top: -1rem;
+  right: -2.4rem;
+}
+/* END OF FOOTER */
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -310,7 +397,13 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* FOOTER */
+  .footer__title {
+    font-size: 1.875rem;
+  }
+  /* END OF FOOTER*/
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -478,6 +571,10 @@ No media query for `xs` since this is the default in Bootstrap
   /* END OF EXTRA IMG */
 
   /* DATE */
+  .date {
+    height: 43.25rem;
+  }
+  
   .date__title {
     font-size: 3.75rem;
   }
@@ -504,6 +601,22 @@ No media query for `xs` since this is the default in Bootstrap
     /* padding: 0.4rem; */
   }
   /* END OF DATE */
+
+  /* FOOTER */
+  .footer__title {
+    font-size: 1.875rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer__p1 {
+    margin-top: 0rem;
+  }
+
+  .footer__icon {
+    top: -1rem;
+    right: -2rem;
+  }
+  /* END OF FOOTER */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
