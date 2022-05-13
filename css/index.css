@@ -643,8 +643,8 @@ No media query for `xs` since this is the default in Bootstrap
 
   /* EXTRA IMG */
   .extra-img__img {
-    width: 27.063rem;
-    height: 24.5rem;
+    width: 24rem;
+    height: 24rem;
   }
   /* END OF EXTRA IMG */
 
