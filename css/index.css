@@ -23,6 +23,132 @@
 }
 /* END OF BUTTONS FIXED */
 
+/* MODAL */
+.brightness-90:hover {
+  filter: brightness(90%);
+}
+
+.modal-1__content {
+  background-color: #D7B97C;
+}
+
+.modal-1__header {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.modal-1__img-1 {
+  width: 6rem;
+  height: 3rem;
+}
+
+.modal-1__img-3 {
+  margin-left: 1rem;
+}
+
+.modal-1__close-icon {
+  cursor: pointer;
+  font-size: 2.375rem;
+}
+
+.modal-1__close-icon i {
+  color: #8D5C30; 
+  background-color: #FFFFFF; 
+  border-radius: 50%;
+}
+
+.modal-1__title {
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+
+.modal-1__p {
+  color: #FFFFFF;
+  margin: 2rem 0rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal-1__input, .modal-1__textarea {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.modal-1__input, .modal-1__textarea, .modal-1__g-recaptcha {
+  margin: 0.4rem 0rem;
+  padding: 0.4rem;
+}
+
+.modal-1__textarea {
+  resize: none;
+}
+
+.modal-1__btn {
+  width: 100%;
+  background-color: #D87C5E;
+  color: #FFFFFF;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.modal-1__inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-2__title-container {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.modal-2__title-container div {
+  width: max-content;
+  position: relative;
+}
+
+.modal-2__title {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+
+.modal-2__icon {
+  width: 2.3rem;
+  position: absolute;
+  top: -1rem;
+  right: -2.4rem;
+}
+
+.modal-2__p {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem 0rem;
+}
+
+.modal-2__btn {
+  background-color: #D87C5E;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.modal-2__body {
+  position: relative;
+}
+
+.modal-2__divider-white-line {
+  width: 4.5rem;
+  height: 1.9rem;
+  position: absolute;
+  top: 3rem;
+  right: 0rem;
+}
+/* END OF MODAL */
+
 /* HEADER */
 .header__message {
   background-color: #D7B97C;
@@ -698,6 +824,26 @@ No media query for `xs` since this is the default in Bootstrap
     right: -2rem;
   }
   /* END OF FOOTER */
+
+  /* MODAL */
+  .modal-1__title {
+    color: #8D5C30;
+    font-size: 4rem;
+  }
+
+  .modal-1__input, .modal-1__textarea, .modal-1__btn {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* END OF MODAL */
+
+  /* MODAL */
+  .modal-1__icon {
+    top: -1rem;
+    right: -2rem;
+  }
+  /* END OF MODAL */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
