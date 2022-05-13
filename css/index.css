@@ -48,6 +48,8 @@
   border-radius: 0.188rem;
   padding: 0.4rem;
   margin-top: 1rem;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 /* END OF NAVBAR */
 
@@ -183,9 +185,49 @@
 /* END OF DEPARTMENTS */
 
 /* AMENITIES */
-.carousel__img {
+/* .amenities__img {
   width: 2.729rem;
   height: 2.031rem;
+} */
+
+.amenities__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.amenities__title {
+  color: #8D5C30;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.amenities__btn {
+  color: #FFFFFF;
+  background-color: #D87C5E;
+  margin-top: 4rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.amenities__swiper {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.amenities__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenities__button-prev::after,
+.amenities__button-next::after {
+  color: #8D5C30;
+  font-size: 2rem;
+  font-weight: bold;
 }
 /* END OF AMENITIES */
 
@@ -193,6 +235,7 @@
 .location {
   color: #717171;
   font-family: 'Roboto', sans-serif;
+  margin-top: 3rem;
 }
 
 .location__title-container {
@@ -294,6 +337,8 @@
   background-color: #D87C5E;
   color: #FFFFFF;
   margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
 /* END OF DATE */
 
@@ -321,6 +366,8 @@
 .footer__btn {
   background-color: #4B653A;
   color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
 
 .footer__p2 {
@@ -569,6 +616,17 @@ No media query for `xs` since this is the default in Bootstrap
     z-index: 1;
   }
   /* END OF EXTRA IMG */
+
+  /* AMENITIES */
+  .amenities {
+    margin-top: 6.5rem;
+  }
+
+  .amenities__btn {
+    width: max-content;
+    margin: 5rem auto auto auto;
+  }
+  /* END OF AMENITIES */
 
   /* DATE */
   .date {

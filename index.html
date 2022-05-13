@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <!-- INDEX CSS -->
   <link rel="stylesheet" href="./css/index.css">
 
@@ -86,7 +88,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <button class="navbar__button" type="button">DESCARGAR BROCHURE</button>
+              <!-- <button class="navbar__button" type="button"></button> -->
+              <a class="navbar__button btn" href="#">DESCARGAR BROCHURE</a>
             </li>
           </ul>
         </div>
@@ -269,9 +272,59 @@
     <!-- SECTION AMENITIES -->
     <section class="amenities">
       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-9 col-md-5 col-lg-9 amenities__info">
+            <h3 class="amenities__title">NUESTRAS AMENIDADES</h3>
+            <a class="amenities__btn btn" href="#">DESCARGAR BROCHURE</a>
+          </div>
+        </div>
         <div class="row">
           <div class="col-12">
-
+            <!-- CAROUSEL -->
+            <!-- SLIDER MAIN CONTAINER -->
+            <div class="swiper amenities__swiper">
+              <!-- ADDITIONAL REQUIRED WRAPPER -->
+              <div class="swiper-wrapper amenities__swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/lotus.png" alt="Lotus">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/restaurant.png" alt="Restaurant">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/reception-bell.png" alt="Reception bell">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/police-cap.png" alt="Police cap">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/dumbbell.png" alt="Dumbbell">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/pool.png" alt="Pool">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/bike.png" alt="Bike">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/parking-sign.png" alt="Parking sign">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/sun.png" alt="Sun">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/deck-chair.png" alt="Deck chair">
+                </div>
+                <div class="swiper-slide amenities__slide">
+                  <img class="amenities__img" src="./img/carousel/elevator.png" alt="Elevator">
+                </div>
+      
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev amenities__button-prev"></div>
+              <div class="swiper-button-next amenities__button-next"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -452,8 +505,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-
+  <!-- SWIPER JS -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- RECAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- INDEX JS -->
+  <script src="./js/index.js"></script>
 
 </body>
 
