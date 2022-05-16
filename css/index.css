@@ -605,9 +605,9 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 992px) {
   /* HEADER */
   .header {
-    height: 40rem;
+    height: 50rem;
     background-image: url("../img/header-bg.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #FFFFFF;
   }
@@ -849,10 +849,6 @@ No media query for `xs` since this is the default in Bootstrap
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   /* HEADER */
-  .header {
-    height: 46.875rem;
-  }
-  
   .header__title {
     width: 35.313rem;
     font-size: 5rem;
