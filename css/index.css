@@ -751,8 +751,8 @@ No media query for `xs` since this is the default in Bootstrap
   }
 
   .extra-img__bg-extra {
-    width: 1000px;
-    height: 24.5rem;
+    width: 90%;
+    height: 20rem;
     position: absolute;
     z-index: -1;
     top: 20%;
@@ -866,8 +866,12 @@ No media query for `xs` since this is the default in Bootstrap
 
   /* EXTRA IMG */
   .extra-img__img {
-    width: 24rem;
-    height: 24rem;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .extra-img__bg-extra {
+    height: 40rem;
   }
   /* END OF EXTRA IMG */
 
